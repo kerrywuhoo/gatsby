@@ -25,6 +25,14 @@
 			text-transform: uppercase;
 		}
 
+		.trademark {
+			letter-spacing: _font(letter-spacing);
+			font-size: 0.4rem;
+			opacity: 0.5;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
 		.body.is-article-visible & {
 			@include vendor('transform', 'scale(0.95)');
 			@include vendor('filter', 'blur(0.1rem)');
