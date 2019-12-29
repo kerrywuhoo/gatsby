@@ -44,6 +44,9 @@ class Main extends React.Component {
             While my engineering degree in an EECS field would suggest that I am an awkard, anti-social hermit that lives in a completely blacked out room, that couldn't be further from the truth. I am a very sociable person with a great sense of humor, <i>however my mom says I talk too much</i>. You would find me making friends with complete strangers standing in line for $50 TVs on Black Friday, when everyone else is trampling over each other to be the first in line at WalMart. I had the incredible opportunty to take two internships overseas, one in Singapore and another in Germany, countries I had never been to, but was very quickly able to assimilate into the work and social cultures in these places and made friends that will hopefully last for a lifetime.
           </p>
           <p>
+            When it comes to my technical skills, I have had extensive experience in both <b>Python</b> and <b>C++</b>. I have also worked with <b>SQL</b>, <b>R</b>, <b>Java</b>, <b>JavaScript</b>, and <b>MATLAB</b>. I have been increasingly using machine learning tools: <b>TensorFlow</b>, <b>PyTorch</b>, and <b>sckit-learn</b> to compliment my knowledge of data manipulation tools, <b>pandas</b> and <b>NumPy</b>. I also have experience with <b>MongoDB</b> and <b>MySQL</b> for database management, <b>Hadoop</b> for pipelining, and both <b>Tableau</b> and <b>Matplotlib</b> for data visualization. I have some CAD experience using <b>CATIA V6</b> as well as photo editing experience with <b>Photoshop</b>.
+          </p>
+          <p>
             Anyways, I hope you enjoy your visit to my website. Please feel free to <a href = '#contact'>contact me</a> about anything; potential collaboration opportunties, 1v1 me in Call of Duty, or if you want to make some money off me in Fantasy Football. Please reach out.
           </p>
           {close}
