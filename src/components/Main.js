@@ -180,6 +180,10 @@ class Main extends React.Component {
             <ul>
               <li><i>Remote Unmoderated Usability Testing</i></li>
             </ul>
+            Personal
+            <ul>
+              <li><b><i>This Website!</i></b></li>
+            </ul>
           </p>
           {close}
         </article>
