@@ -204,9 +204,17 @@ class Main extends React.Component {
           </p>
           <p>
             Slash 2 Esports - Data Analyst/Software Engineer (Summer 2019 - Present)
+          </p>
+          <p> 
             University of Michigan - PC Operations (Fall 2019 - Present)
+          </p>
+          <p>
             Medion AG - Project Management Intern (Summer 2018)
+          </p>
+          <p>  
             Razer Inc - Global Marketing Intern (Summer 2017)
+          </p>
+          <p>  
             Faraday Future - Body in White Engineering Intern (August 2016)
           </p>
           {close}
