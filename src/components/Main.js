@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import wip from '../images/wip.jpg'
 import pic02 from '../images/pic02.jpg'
 import north from '../images/north.jpeg'
 import profile from '../images/profile.jpeg'
@@ -197,7 +197,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={wip} alt="" />
           </span>
           <p>
             "Work" is currently a work in progress! Please check back later!
