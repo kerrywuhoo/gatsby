@@ -200,19 +200,14 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            "Work" is currently a work in progress! Please check back later!
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Slash 2 Esports - Data Analyst/Software Engineer (Summer 2019 - Present)
+            University of Michigan - PC Operations (Fall 2019 - Present)
+            Medion AG - Project Management Intern (Summer 2018)
+            Razer Inc - Global Marketing Intern (Summer 2017)
+            Faraday Future - Body in White Engineering Intern (August 2016)
           </p>
           {close}
         </article>
