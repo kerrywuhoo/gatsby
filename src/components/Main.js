@@ -219,7 +219,30 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
+        <article
+          id="blog"
+          className={`${this.props.article === 'blog' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Blog</h2>
+          <a href="https://wuhoo.design.blog">
+            <h2>
+              I HAVE A BLOG!!!!
+            </h2>
+            <p>
+              This is mostly a place for me to rant about the Seahawks or some other things. It is a personal blog so all of the content on the blog is my own opinion and not shared by the company that I work for or the companies that I have worked for. It's just a place to show off my personality a little bit more. If you are interested please go check it out. Editor positions are available!!! (Unpaid you do get my friendship tho)
+            </p>
+            <p>
+              Also, the blog is currently on Wordpress, I haven't really had the time to work on this website, hence the links that don't actually open up new articles + the Work section still being a 'work' in progress (not intentional). In the future I would like to have this blog set up on my own backend, but right now we just have to work with what we're given.
+            </p>
+            <h3>
+              Click anywhere to be redirected the blog!
+            </h3>
+          </a>
+          {close}
+        </article>
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
@@ -294,6 +317,7 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
+        
       </div>
     )
   }
