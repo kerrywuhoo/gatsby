@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import wip from '../images/wip.jpg'
-import pic02 from '../images/pic02.jpg'
 import north from '../images/north.jpeg'
 import profile from '../images/profile.jpeg'
 import model from '../images/model.jpg'
@@ -125,7 +124,7 @@ class Main extends React.Component {
             Welcome to my project page. Most of the projects that I will be presenting are my from my <a href="#edu">academic career</a>. If you would like to learn more about the specifics of each course that is mentioned below, please check the <a href="#edu">education tab</a>. Source available on request to non-students for personal evaluation, it is unavailable to students due to the <a href='https://bulletin.engin.umich.edu/rules/'>University of Michigan Engineering Honor Code</a>.
           </p>
           <p>
-            EECS 442
+            Computer Vision
             <ul>
               <li><i>Prokudin-Gorskii: Color from grayscale photos</i></li>
               <li><i>Image Filtering and Feature Detection</i></li>
@@ -133,20 +132,20 @@ class Main extends React.Component {
               <li><i>Image Classification and Semantic Segmentation</i></li>
               <li><i>Improving Classification with Modeled Human Vision</i></li>
             </ul>
-            EECS 485
+            Web Systems
             <ul>
               <li><i>Server-side Instagram Clone</i></li>
               <li><i>Client-side Instagram Clone</i></li>
               <li><i>MapReduce Server Implementation</i></li>
               <li><i>Hadoop</i></li>
             </ul>
-            EECS 484
+            Database Management Systems
             <ul>
               <li><i>Facebook Oracle JDBC</i></li>
               <li><i>MongoDB Database</i></li>
               <li><i>Database Structure</i></li>
             </ul>
-            EECS 388
+            Introduction to Computer Security
             <ul>
               <li><i>Cryptographic Attacks</i></li>
               <li><i>Web Security</i></li>
@@ -154,14 +153,14 @@ class Main extends React.Component {
               <li><i>Binary Exploitation</i></li>
               <li><i>Data Forensics</i></li>
             </ul>  
-            EECS 281
+            Data Structures and Algorithms
             <ul>
               <li><i>Letterman Robot (Path Finding)</i></li>
               <li><i>Star Wars: A New Heap (Priority Queues)</i></li>
               <li><i>SillyQL (SQL)</i></li>
               <li><i>Zookeeper (Classic NP-hard Problems)</i></li>
             </ul>
-            EECS 280
+            Programming and Introductory Data Structures
             <ul>
               <li><i>Image Processing</i></li>
               <li><i>Euchre</i></li>
@@ -172,17 +171,18 @@ class Main extends React.Component {
               <li><i>Socioeconomic Effects on Drought Severity throughout the United States</i></li>
               <p></p>
             </ul>
-            STATS 415
+            Data Mining and Statistical Learning
             <ul>
               <li><i>Continued Drought Severity Exploration</i></li>
             </ul>
-            SI 422
+            Needs Assessment and Usability Evaluation
             <ul>
               <li><i>Remote Unmoderated Usability Testing</i></li>
             </ul>
             Personal
             <ul>
               <li><b><i>This Website!</i></b></li>
+              <li><i><a href="https://wuhoo.design.blog/">Personal Blog</a></i></li>
             </ul>
           </p>
           {close}
@@ -228,7 +228,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -249,7 +249,7 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a

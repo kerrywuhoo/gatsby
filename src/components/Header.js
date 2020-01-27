@@ -19,14 +19,54 @@ const Header = (props) => (
             </div>
         </div>
         <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('edu')}}>Education</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('proj')}}>Projects</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
+      <ul>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('intro')
+            }}
+          >
+            Intro
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('edu')
+            }}
+          >
+            Education
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('proj')
+            }}
+          >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('work')
+            }}
+          >
+            Work
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('contact')
+            }}
+          >
+            Contact
+          </button>
+        </li>
+      </ul>
+    </nav>
     </header>
 )
 
